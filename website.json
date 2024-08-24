@@ -1,0 +1,666 @@
+{
+    "faq": 
+      [
+        { "question": "hello", "answer": "Hello! It's great to see you. How can I help you today?" },
+        { "question": "helloo", "answer": "Hi there! What can I assist you with?" },
+        { "question": "helo", "answer": "Hey! Ready to dive into your queries. What's on your mind?" },
+        
+        { "question": "hi there", "answer": "Hello! It's great to see you. How can I help you today?" },
+        { "question": "hii", "answer": "Hi there! What can I assist you with?" },
+        { "question": "hi", "answer": "Hey! Ready to dive into your queries. What's on your mind?" },
+        
+        { "question": "heyy", "answer": "Hello! It's great to see you. How can I help you today?" },
+        { "question": "hey", "answer": "Hi there! What can I assist you with?" },
+        { "question": "hey there", "answer": "Hey! Ready to dive into your queries. What's on your mind?" },
+        {
+          "question": "bye",
+          "answer": "Goodbye! Don't hesitate to come back if you need more assistance. Have a great day!"
+        },
+        {
+          "question": "goodbye",
+          "answer": "It was great chatting with you! If you have more questions in the future, feel free to reach out. Take care!"
+        },
+        {
+          "question": "farewell",
+          "answer": "Farewell! I hope our paths cross again soon. Best wishes until then!"
+        },
+
+        {
+          "question": "later",
+          "answer": "Catch you later! Let me know if there's anything else you need when you return."
+        },
+        {
+          "question": "see you later",
+          "answer": "Catch you later! Let me know if there's anything else you need when you return."
+        }, 
+        {
+          "question": "see ya later",
+          "answer": "Catch you later! Let me know if there's anything else you need when you return."
+        },          
+        
+        
+        
+        { "question": "how are you?", "answer": "I'm just a bot, but I'm doing great! Thanks for asking. How can I assist you?" },
+        { "question": "how are you", "answer": "As good as a bot can be! What do you need help with today?" },
+        { "question": "how are you", "answer": "I'm functioning within optimal parameters! How can I serve you today?" },
+      
+        { "question": "how's it going?", "answer": "I'm just a bot, but I'm doing great! Thanks for asking. How can I assist you?" },
+        { "question": "how's it going", "answer": "As good as a bot can be! What do you need help with today?" },
+        { "question": "hows it going", "answer": "I'm functioning within optimal parameters! How can I serve you today?" },
+      
+        { "question": "whats up", "answer": "I'm just a bot, but I'm doing great! Thanks for asking. How can I assist you?" },
+        { "question": "what's up?", "answer": "As good as a bot can be! What do you need help with today?" },
+        { "question": "what's up", "answer": "I'm functioning within optimal parameters! How can I serve you today?" },            
+      
+      {
+        "question": "what is this website?",
+        "answer": "Our services include providing up-to-date tech news, detailed product reviews, insightful how-to guides, and articles on the latest trends in the tech world."
+      },
+      {
+        "question": "what is this website",
+        "answer": "Welcome to Gizmore! We are a technology-focused website offering the latest news, reviews, and insights in the world of technology, gadgets, and software."
+      },
+      
+      {
+        "question": "about the website",
+        "answer": "We offer a wide range of services including detailed product reviews, tech news, how-to guides, and insightful articles to keep you updated on the latest trends in technology."
+      },
+      {
+        "question": "tell me about this website",
+        "answer": "Gizmore is dedicated to providing you with the latest in technology, gadgets, and software. Whether you're a tech enthusiast or just looking for some advice on your next purchase, we've got you covered."
+      },
+      {
+        "question": "tell me about website",
+        "answer": "Our services include providing up-to-date tech news, detailed product reviews, insightful how-to guides, and articles on the latest trends in the tech world."
+      },
+      {
+        "question": "tell me about the website",
+        "answer": "Welcome to Gizmore! We are a technology-focused website offering the latest news, reviews, and insights in the world of technology, gadgets, and software."
+      },
+      {
+        "question": "what do you offer",
+        "answer": "This website is Gizmore, your go-to source for the latest in tech, gadgets, and software. We offer comprehensive product reviews, insightful articles, and the latest news in the tech world."
+      },
+      {
+        "question": "what do you offer?",
+        "answer": "We offer a wide range of services including detailed product reviews, tech news, how-to guides, and insightful articles to keep you updated on the latest trends in technology."
+      },
+      {
+        "question": "what you offer?",
+        "answer": "Our services include providing up-to-date tech news, detailed product reviews, insightful how-to guides, and articles on the latest trends in the tech world."
+      },
+      {
+        "question": "what you offer",
+        "answer": "Welcome to Gizmore! We are a technology-focused website offering the latest news, reviews, and insights in the world of technology, gadgets, and software."
+      },
+      
+      {
+        "question": "info on website?",
+        "answer": "Gizmore is dedicated to providing you with the latest in technology, gadgets, and software. Whether you're a tech enthusiast or just looking for some advice on your next purchase, we've got you covered."
+      },
+      {
+        "question": "info of website",
+        "answer": "Our services include providing up-to-date tech news, detailed product reviews, insightful how-to guides, and articles on the latest trends in the tech world."
+      },
+      {
+        "question": "info on website",
+        "answer": "Welcome to Gizmore! We are a technology-focused website offering the latest news, reviews, and insights in the world of technology, gadgets, and software."
+      },
+      
+      {
+        "question": "who are you?",
+        "answer": "Our services include providing up-to-date tech news, detailed product reviews, insightful how-to guides, and articles on the latest trends in the tech world."
+      },
+      {
+        "question": "who are you",
+        "answer": "Welcome to Gizmore! We are a technology-focused website offering the latest news, reviews, and insights in the world of technology, gadgets, and software."
+      },
+      {
+        "question": "what are the website services",
+        "answer": "Our services include providing up-to-date tech news, detailed product reviews, insightful how-to guides, and articles on the latest trends in the tech world."
+      },
+      {
+        "question": "website services",
+        "answer": "Welcome to Gizmore! We are a technology-focused website offering the latest news, reviews, and insights in the world of technology, gadgets, and software."
+      },
+      {
+        "question": "about site",
+        "answer": "This website is Gizmore, your go-to source for the latest in tech, gadgets, and software. We offer comprehensive product reviews, insightful articles, and the latest news in the tech world."
+      },
+      
+      {
+        "question": "about the site",
+        "answer": "Gizmore is dedicated to providing you with the latest in technology, gadgets, and software. Whether you're a tech enthusiast or just looking for some advice on your next purchase, we've got you covered."
+      },
+      {
+        "question": "about this site",
+        "answer": "Our services include providing up-to-date tech news, detailed product reviews, insightful how-to guides, and articles on the latest trends in the tech world."
+      },
+      {
+        "question": "about this site?",
+        "answer": "Welcome to Gizmore! We are a technology-focused website offering the latest news, reviews, and insights in the world of technology, gadgets, and software."
+      },
+      {
+        "question": "who created you",
+        "answer": "Tanish is my creator. With a keen interest in technology and a passion for sharing knowledge, Tanish brought me to life!"
+      },
+      {
+        "question": "created you",
+        "answer": "I was created by Tanish, a technology enthusiast who loves to explore and create innovative solutions."
+      },
+      {
+        "question": "who created you?",
+        "answer": "My creator is Tanish. Thanks to their expertise and vision, I'm here to assist you with your queries."
+      },
+      {
+        "question": "who is your creator",
+        "answer": "Tanish is my creator. With a keen interest in technology and a passion for sharing knowledge, Tanish brought me to life!"
+      },
+      {
+        "question": "you are created by whom",
+        "answer": "I was created by Tanish, a technology enthusiast who loves to explore and create innovative solutions."
+      },
+      {
+        "question": "who is your creator?",
+        "answer": "My creator is Tanish. Thanks to their expertise and vision, I'm here to assist you with your queries."
+      },
+      {
+        "question": "who made you",
+        "answer": "Tanish is my creator. With a keen interest in technology and a passion for sharing knowledge, Tanish brought me to life!"
+      },
+      {
+        "question": "who madee you",
+        "answer": "I was created by Tanish, a technology enthusiast who loves to explore and create innovative solutions."
+      },
+      {
+        "question": "who made you?",
+        "answer": "My creator is Tanish. Thanks to their expertise and vision, I'm here to assist you with your queries."
+      },  
+        
+      {
+        "question": "How do I track my order",
+        "answer": "You can track your order through our order tracking page."
+      },
+      {
+        "question": "How track my order",
+        "answer": "You can track your order through our order tracking page."
+      },
+      {
+        "question": "track my order",
+        "answer": "You can track your order through our order tracking page."
+      },
+      {
+        "question": "What is the return policy",
+        "answer": "You can return products within 30 days."
+      },
+      {
+        "question": "return policy",
+        "answer": "You can return products within 30 days."
+      },
+      {
+        "question": "tell return policy",
+        "answer": "You can return products within 30 days."
+      },
+      {
+        "question": "Where are you situated",
+        "answer": "Our Address is ZAZZ Technology Connect Pvt. Ltd. , B-65, SECTOR 60, BLOCK B, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301 INDIA"
+      },
+      {
+        "question": "your location",
+        "answer": "Our Address is ZAZZ Technology Connect Pvt. Ltd. , B-65, SECTOR 60, BLOCK B, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301 INDIA"
+      },
+      {
+        "question": "your address",
+        "answer": "Our Address is ZAZZ Technology Connect Pvt. Ltd. , B-65, SECTOR 60, BLOCK B, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301 INDIA"
+      },
+      {
+        "question": "How can I contact customer support",
+        "answer": "You can contact customer support via email at info@gizmore.in"
+      },
+      {
+        "question": "categories",
+        "answer": "We offer a variety of categories to explore on our website: Smart Watches, True Wireless, Neckbands, BT Speakers, and Accessories. Which one are you interested in learning more about?"
+      },
+      {
+        "question": "what do you sell",
+        "answer": "We sell a wide range of products across several categories, including Smart Watches, True Wireless Earbuds, Neckbands, Bluetooth Speakers, and various Accessories. What catches your interest?"
+      },
+      {
+        "question": "what products do you have",
+        "answer": "Our product range includes Smart Watches, True Wireless Earbuds, Neckbands, Bluetooth Speakers, and Accessories. Feel free to ask more about any specific category!"
+      },
+      {
+        "question": "list your products",
+        "answer": "Here's a list of our product categories: Smart Watches, True Wireless, Neckbands, BT Speaker, and Accessories. Which category would you like to explore?"
+      },
+      {
+        "question": "show me your product categories",
+        "answer": "Sure! We have several product categories: Smart Watches, True Wireless, Neckbands, BT Speakers, and Accessories. Which one would you like more details about?"
+      },                              
+      {
+        "question": "contact customer support",
+        "answer": "You can contact customer support via email at info@gizmore.in"
+      },
+      {
+        "question": "customer support",
+        "answer": "You can contact customer support via email at info@gizmore.in"
+      },
+      {
+        "question": "How do I place an order",
+        "answer": "You can place an order by adding items to your cart and proceeding to checkout. You will need to provide your shipping and payment information before confirming your order."
+      },
+      {
+        "question": "place an order",
+        "answer": "You can place an order by adding items to your cart and proceeding to checkout. You will need to provide your shipping and payment information before confirming your order."
+      },
+      {
+        "question": "how to place an order",
+        "answer": "You can place an order by adding items to your cart and proceeding to checkout. You will need to provide your shipping and payment information before confirming your order."
+      },
+      {
+        "question": "how can I place an order",
+        "answer": "You can place an order by adding items to your cart and proceeding to checkout. You will need to provide your shipping and payment information before confirming your order."
+      },
+      {
+        "question": "What payment methods are accepted",
+        "answer": "We accept various payment methods including credit cards, debit cards, net banking, and popular e-wallets."
+      },
+      {
+        "question": "payment methods",
+        "answer": "We accept various payment methods including credit cards, debit cards, net banking, and popular e-wallets."
+      },
+      {
+        "question": "how do you accept payments",
+        "answer": "We accept various payment methods including credit cards, debit cards, net banking, and popular e-wallets."
+      },
+      {
+        "question": "What is the shipping policy for multiple addresses",
+        "answer": "Each order can be shipped only to a single address, specified at the time of payment. If you wish to ship products to different addresses, you need to place multiple orders."
+      },
+      {
+        "question": "multiple addresses shipping policy",
+        "answer": "Each order can be shipped only to a single address, specified at the time of payment. If you wish to ship products to different addresses, you need to place multiple orders."
+      },
+      {
+        "question": "How long does it take for an order to be shipped",
+        "answer": "We make our best effort to ship each item in your order within 3 working days of the order date. However, it may take up to 5 or more working days during festivals, sales, or due to other mitigating circumstances."
+      },
+      {
+        "question": "How long for an order to be shipped",
+        "answer": "We make our best effort to ship each item in your order within 3 working days of the order date. However, it may take up to 5 or more working days during festivals, sales, or due to other mitigating circumstances."
+      },
+      {
+        "question": "How long is the shipping process",
+        "answer": "We make our best effort to ship each item in your order within 3 working days of the order date. However, it may take up to 5 or more working days during festivals, sales, or due to other mitigating circumstances."
+      },
+      {
+        "question": "On which days are orders processed",
+        "answer": "Orders are processed from Monday to Saturday. Orders placed on Sunday will be processed the next day."
+      },
+      {
+        "question": "orders processed",
+        "answer": "Orders are processed from Monday to Saturday. Orders placed on Sunday will be processed the next day."
+      },
+      {
+        "question": "when are orders processed",
+        "answer": "Orders are processed from Monday to Saturday. Orders placed on Sunday will be processed the next day."
+      },
+      {
+        "question": "How does Gizmore ensure safe and swift delivery",
+        "answer": "To ensure that your order reaches you in the fastest time and in good condition, Gizmore only uses reputable courier partners."
+      },
+      {
+        "question": "safe and swift delivery",
+        "answer": "To ensure that your order reaches you in the fastest time and in good condition, Gizmore only uses reputable courier partners."
+      },
+      {
+        "question": "Will all items in my order be shipped together",
+        "answer": "While Gizmore attempts to ship all items in a single order together, this may not always be possible due to product characteristics or availability."
+      },
+      {
+        "question": "are items in my order be shipped together",
+        "answer": "While Gizmore attempts to ship all items in a single order together, this may not always be possible due to product characteristics or availability."
+      },
+      {
+        "question": "How can I track my order",
+        "answer": "A shipping confirmation with your tracking ID will be sent after the product has been dispatched. You can use this ID to track your order by visiting our website and checking the shipping status."
+      },
+      {
+        "question": "What payment methods are available",
+        "answer": "The available payment methods are cash on delivery and prepaid options. However, COD is not available for all pin codes. You can check COD availability at your address during checkout."
+      },
+      {
+        "question": "available payment methods",
+        "answer": "The available payment methods are cash on delivery and prepaid options. However, COD is not available for all pin codes. You can check COD availability at your address during checkout."
+      },
+      {
+        "question": "What should I do if my order arrives damaged",
+        "answer": "If your order arrives visibly damaged, please contact Gizmore Customer Service immediately with your order ID and images of the product. Gizmore will dispatch a replacement or initiate a refund immediately."
+      },
+      {
+        "question": "order arrives damaged",
+        "answer": "If your order arrives visibly damaged, please contact Gizmore Customer Service immediately with your order ID and images of the product. Gizmore will dispatch a replacement or initiate a refund immediately."
+      },
+      {
+        "question": "damaged order",
+        "answer": "If your order arrives visibly damaged, please contact Gizmore Customer Service immediately with your order ID and images of the product. Gizmore will dispatch a replacement or initiate a refund immediately."
+      },
+      {
+        "question": "What if the package appears to be tampered with upon delivery",
+        "answer": "If you believe that the packaging has been tampered with or damaged before delivery, refuse to take delivery of the package and submit a ticket at our customer service, mentioning your order ID. Gizmore will arrange for a replacement or a refund."
+      },
+      {
+        "question": "package tampered upon delivery",
+        "answer": "If you believe that the packaging has been tampered with or damaged before delivery, refuse to take delivery of the package and submit a ticket at our customer service, mentioning your order ID. Gizmore will arrange for a replacement or a refund."
+      },
+      {
+        "question": "package tampered",
+        "answer": "If you believe that the packaging has been tampered with or damaged before delivery, refuse to take delivery of the package and submit a ticket at our customer service, mentioning your order ID. Gizmore will arrange for a replacement or a refund."
+      },
+      {
+        "question": "How are vulnerabilities in the firmware identified",
+        "answer": "Vulnerabilities are identified by feedback from customers, users, and through our internal security assessments. We also hold immediate security review meetings upon identification to devise solutions."
+      },
+      {
+        "question": "vulnerabilities in the firmware",
+        "answer": "Vulnerabilities are identified by feedback from customers, users, and through our internal security assessments. We also hold immediate security review meetings upon identification to devise solutions."
+      },
+      {
+        "question": "How are vulnerabilities in firmware identified",
+        "answer": "Vulnerabilities are identified by feedback from customers, users, and through our internal security assessments. We also hold immediate security review meetings upon identification to devise solutions."
+      },
+      {
+        "question": "What steps are taken when a vulnerability is found",
+        "answer": "Upon identifying a vulnerability, a security review meeting is conducted with key personnel, including the project development manager and Technical Director, to propose a solution. This is followed by specific implementation by developers, code review, firmware update, QA testing, and finally, OTA updates for projects."
+      },
+      {
+        "question": "steps taken when a vulnerability is found",
+        "answer": "Upon identifying a vulnerability, a security review meeting is conducted with key personnel, including the project development manager and Technical Director, to propose a solution. This is followed by specific implementation by developers, code review, firmware update, QA testing, and finally, OTA updates for projects."
+      },
+      {
+        "question": "steps taken for vulnerability",
+        "answer": "Upon identifying a vulnerability, a security review meeting is conducted with key personnel, including the project development manager and Technical Director, to propose a solution. This is followed by specific implementation by developers, code review, firmware update, QA testing, and finally, OTA updates for projects."
+      },
+
+      {
+        "question": "Who is involved in the firmware update process",
+        "answer": "The process involves multiple stakeholders including project development managers, the Technical Director, firmware developers, security technology managers, project developers, and the QA team."
+      },
+      {
+        "question": "firmware update process",
+        "answer": "The process involves multiple stakeholders including project development managers, the Technical Director, firmware developers, security technology managers, project developers, and the QA team."
+      },
+      {
+        "question": "who updates firmware",
+        "answer": "The process involves multiple stakeholders including project development managers, the Technical Director, firmware developers, security technology managers, project developers, and the QA team."
+      },
+      {
+        "question": "How do you assess and prioritize vulnerabilities",
+        "answer": "We use the CVSSv2 standard as a reference for assessing and prioritizing the severity of vulnerabilities, ensuring that we address the most critical issues promptly."
+      },
+      {
+        "question": "assess and prioritize vulnerabilities",
+        "answer": "We use the CVSSv2 standard as a reference for assessing and prioritizing the severity of vulnerabilities, ensuring that we address the most critical issues promptly."
+      },
+      {
+        "question": "How you assess vulnerabilities",
+        "answer": "We use the CVSSv2 standard as a reference for assessing and prioritizing the severity of vulnerabilities, ensuring that we address the most critical issues promptly."
+      },
+      {
+        "question": "What happens if issues are found with the updated firmware?",
+        "answer": "If the QA team identifies problems with the updated firmware, the development process cycles back to the implementation stage for further refinement until the firmware passes quality assurance testing."
+      },
+      {
+        "question": "issues found in updated firmware?",
+        "answer": "If the QA team identifies problems with the updated firmware, the development process cycles back to the implementation stage for further refinement until the firmware passes quality assurance testing."
+      },
+      {
+        "question": "issues in updated firmware",
+        "answer": "If the QA team identifies problems with the updated firmware, the development process cycles back to the implementation stage for further refinement until the firmware passes quality assurance testing."
+      },
+      {
+        "question": "How will I know if there is a firmware update available",
+        "answer": "Customers will be notified by the project manager to update their software. Confirmation of the upgrade will be sought from customers, ensuring they are aware and consent to the OTA updates."
+      },
+      {
+        "question": "How to know firmware update available",
+        "answer": "Customers will be notified by the project manager to update their software. Confirmation of the upgrade will be sought from customers, ensuring they are aware and consent to the OTA updates."
+      },
+      {
+        "question": "firmware update available",
+        "answer": "Customers will be notified by the project manager to update their software. Confirmation of the upgrade will be sought from customers, ensuring they are aware and consent to the OTA updates."
+      },
+      {
+        "question": "What is OTA and how does it work",
+        "answer": "OTA (Over-The-Air) technology allows us to remotely update the firmware on devices without needing physical access. This process ensures your device is up-to-date with the latest features and security improvements."
+      },
+      {
+        "question": "OTA",
+        "answer": "OTA (Over-The-Air) technology allows us to remotely update the firmware on devices without needing physical access. This process ensures your device is up-to-date with the latest features and security improvements."
+      },
+      {
+        "question": "how OTA works",
+        "answer": "OTA (Over-The-Air) technology allows us to remotely update the firmware on devices without needing physical access. This process ensures your device is up-to-date with the latest features and security improvements."
+      },
+      {
+        "question": "Is the Gizmore warranty transferable to another person",
+        "answer": "The Gizmore warranty is confined to the first purchaser of the Gizmore products only and is not transferable."
+      },
+      {
+        "question": "Gizmore warranty transferable to another person",
+        "answer": "The Gizmore warranty is confined to the first purchaser of the Gizmore products only and is not transferable."
+      },
+      {
+        "question": "is Gizmore warranty transferable",
+        "answer": "The Gizmore warranty is confined to the first purchaser of the Gizmore products only and is not transferable."
+      },
+      {
+        "question": "What does the Gizmore warranty cover",
+        "answer": "The warranty services are limited to repair or replacement of the product and are at the sole discretion of Gizmore."
+      },
+      {
+        "question": "What the Gizmore warranty cover",
+        "answer": "The warranty services are limited to repair or replacement of the product and are at the sole discretion of Gizmore."
+      },
+      {
+        "question": "Gizmore warranty covers",
+        "answer": "The warranty services are limited to repair or replacement of the product and are at the sole discretion of Gizmore."
+      },
+      {
+        "question": "How can I avail of warranty services",
+        "answer": "Proof of purchase is required to be presented for availing warranty services. You can register a warranty service request on our website."
+      },
+      {
+        "question": "avail warranty services",
+        "answer": "Proof of purchase is required to be presented for availing warranty services. You can register a warranty service request on our website."
+      },
+      {
+        "question": "How to avail warranty services",
+        "answer": "Proof of purchase is required to be presented for availing warranty services. You can register a warranty service request on our website."
+      },
+      {
+        "question": "warranty services",
+        "answer": "Proof of purchase is required to be presented for availing warranty services. You can register a warranty service request on our website."
+      },
+      {
+        "question": "What if the product needs to be sent to Gizmore for repair",
+        "answer": "If the issue is not resolved remotely, we will arrange to pick up the device from your address. If a reverse-pickup facility is not available at your location, you will be requested to self-ship the product to our warehouse."
+      },
+      {
+        "question": "want to repair product",
+        "answer": "If the issue is not resolved remotely, we will arrange to pick up the device from your address. If a reverse-pickup facility is not available at your location, you will be requested to self-ship the product to our warehouse."
+      },
+      {
+        "question": "product needs to be repaired",
+        "answer": "If the issue is not resolved remotely, we will arrange to pick up the device from your address. If a reverse-pickup facility is not available at your location, you will be requested to self-ship the product to our warehouse."
+      },
+      {
+        "question": "What is not covered by the Gizmore warranty",
+        "answer": "The warranty does not cover any damage from customer abuse, unauthorized repairs, accidents, misuse, or any modifications to the product."
+      },
+      {
+        "question": "What does Gizmore warranty cover",
+        "answer": "The warranty does not cover any damage from customer abuse, unauthorized repairs, accidents, misuse, or any modifications to the product."
+      },
+      {
+        "question": "what Gizmore warranty cover",
+        "answer": "The warranty does not cover any damage from customer abuse, unauthorized repairs, accidents, misuse, or any modifications to the product."
+      },
+      {
+        "question": "What happens if internal or external components need to be replaced",
+        "answer": "If any coloured internal or external components are to be replaced, there will be an effort to ensure that the shades match with the original. Any matching components changed at the customer's request will be chargeable except the component replaced under warranty."
+      },
+      {
+        "question": "components need to be replaced",
+        "answer": "If any coloured internal or external components are to be replaced, there will be an effort to ensure that the shades match with the original. Any matching components changed at the customer's request will be chargeable except the component replaced under warranty."
+      },
+      {
+        "question": "internal or external components need to be replaced",
+        "answer": "If any coloured internal or external components are to be replaced, there will be an effort to ensure that the shades match with the original. Any matching components changed at the customer's request will be chargeable except the component replaced under warranty."
+      },
+      {
+        "question": "What if my product is out of stock during replacement",
+        "answer": "In case of product replacement within the warranty period, if the product is out of stock, an upgraded model of the equivalent price will be offered."
+      },
+      {
+        "question": "product is out of stock during replacement",
+        "answer": "In case of product replacement within the warranty period, if the product is out of stock, an upgraded model of the equivalent price will be offered."
+      },
+      {
+        "question": "my product is out of stock during replacement",
+        "answer": "In case of product replacement within the warranty period, if the product is out of stock, an upgraded model of the equivalent price will be offered."
+      },
+      {
+        "question": "What is the warranty period for Gizmore products",
+        "answer": "The warranty period is 12 months from the date of purchase as determined by proof of purchase."
+      },
+      {
+        "question": "warranty period for Gizmore products",
+        "answer": "The warranty period is 12 months from the date of purchase as determined by proof of purchase."
+      },
+      {
+        "question": "Gizmore products warranty period",
+        "answer": "The warranty period is 12 months from the date of purchase as determined by proof of purchase."
+      },
+      {
+        "question": "personal information safety",
+        "answer": "Yes, we are committed to safeguarding your personal information. Our Privacy Policy governs the use of personal information on the Site."
+      },
+      {
+        "question": "is my personal information safe here",
+        "answer": "Yes, we are committed to safeguarding your personal information. Our Privacy Policy governs the use of personal information on the Site."
+      },
+      {
+        "question": "Can I use the products bought on Gizmorekart for commercial purposes",
+        "answer": "No, the products and services available on the Site are for personal and/or professional use only and should not be resold for commercial reasons."
+      },
+      {
+        "question": "can I use gizmore products for commercial purposes",
+        "answer": "No, the products and services available on the Site are for personal and/or professional use only and should not be resold for commercial reasons."
+      },
+      {
+        "question": "gizmore products for commercial purposes",
+        "answer": "No, the products and services available on the Site are for personal and/or professional use only and should not be resold for commercial reasons."
+      },
+      {
+        "question": "What should I do if I find a pricing error for a product",
+        "answer": "Company reserves the right to refuse or cancel any orders placed for a product listed at an incorrect price. If your order is canceled due to a pricing error, you will be notified."
+      },
+      {
+        "question": "pricing error in a product",
+        "answer": "Company reserves the right to refuse or cancel any orders placed for a product listed at an incorrect price. If your order is canceled due to a pricing error, you will be notified."
+      },
+      {
+        "question": "pricing error",
+        "answer": "Company reserves the right to refuse or cancel any orders placed for a product listed at an incorrect price. If your order is canceled due to a pricing error, you will be notified."
+      },
+      {
+        "question": "How can I make payments for my purchases on the Site?",
+        "answer": "Payments can be made by Credit Cards, Debit Cards, Net Banking, Wallets, e-Gift cards, and reward points."
+      },      
+      {
+        "question": "How can I find a service center near me",
+        "answer": "You can find the nearest service center by visiting our website and using the 'Service Center Locator' feature. Simply enter your location to see a list of service centers near you."
+      },
+      {
+        "question": "service center near me",
+        "answer": "You can find the nearest service center by visiting our website and using the 'Service Center Locator' feature. Simply enter your location to see a list of service centers near you."
+      },
+      {
+        "question": "how to find service center near me",
+        "answer": "You can find the nearest service center by visiting our website and using the 'Service Center Locator' feature. Simply enter your location to see a list of service centers near you."
+      },
+      {
+        "question": "What services are provided at your service centers",
+        "answer": "Our service centers offer a range of services including device troubleshooting, repair, parts replacement, and warranty claims for our products."
+      },
+      {
+        "question": "services provided at your service centers",
+        "answer": "Our service centers offer a range of services including device troubleshooting, repair, parts replacement, and warranty claims for our products."
+      },
+      {
+        "question": "What services are provided at service centers",
+        "answer": "Our service centers offer a range of services including device troubleshooting, repair, parts replacement, and warranty claims for our products."
+      },
+      {
+        "question": "Can I get my device repaired at any service center",
+        "answer": "Yes, you can"
+      },
+      {
+      "question": "Can I get my device repaired at any of our authorized service centers for device repairs",
+      "answer": "Yes, you can visit any of our authorized service centers for device repairs. However, some services and parts availability might vary by location."
+      },
+      {
+        "question": "device repairs",
+        "answer": "Yes, you can visit any of our authorized service centers for device repairs. However, some services and parts availability might vary by location."
+        },
+      {
+      "question": "Do I need to book an appointment before visiting a service center",
+      "answer": "While booking an appointment is not mandatory, we recommend calling the service center ahead of your visit to check for wait times and service availability."
+      },
+      {
+        "question": "is appointed needed before going to service center",
+        "answer": "While booking an appointment is not mandatory, we recommend calling the service center ahead of your visit to check for wait times and service availability."
+        },
+      {
+      "question": "How long does it take to repair a device",
+      "answer": "Repair times can vary depending on the issue and parts availability. The service center will provide you with an estimated turnaround time when you drop off your device."
+      },
+      {
+        "question": "time taken to repair a device",
+        "answer": "Repair times can vary depending on the issue and parts availability. The service center will provide you with an estimated turnaround time when you drop off your device."
+        },
+        {
+          "question": "time taken in repairing a device",
+          "answer": "Repair times can vary depending on the issue and parts availability. The service center will provide you with an estimated turnaround time when you drop off your device."
+          },
+      {
+      "question": "Is there any cost for repairing a device under warranty",
+      "answer": "Repairs for devices under warranty are typically free of charge, excluding any physical or liquid damage. Please bring your proof of purchase when visiting the service center."
+      },
+      {
+        "question": "cost of repairing a device under warranty",
+        "answer": "Repairs for devices under warranty are typically free of charge, excluding any physical or liquid damage. Please bring your proof of purchase when visiting the service center."
+        },
+        {
+          "question": "cost of repairing a device if one has warranty",
+          "answer": "Repairs for devices under warranty are typically free of charge, excluding any physical or liquid damage. Please bring your proof of purchase when visiting the service center."
+          },
+      {
+      "question": "Can I contact a service center directly for support",
+      "answer": "Yes, you can contact any of our service centers directly using the provided phone numbers or email addresses for support and inquiries."
+      },
+      {
+        "question": "contact a service center directly",
+        "answer": "Yes, you can contact any of our service centers directly using the provided phone numbers or email addresses for support and inquiries."
+        },
+        {
+          "question": "contact service center directly",
+          "answer": "Yes, you can contact any of our service centers directly using the provided phone numbers or email addresses for support and inquiries."
+          }  
+
+   ] 
+}
+  
+    
+  

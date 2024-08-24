@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body, html {
+    margin: 0;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background: #e9ebee; /* A common messenger background color */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+ .chat-widget {
+  width: 350px;
+  height: 500px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+  
+  
+  
+  /* You may need to adjust the height of the chat-body if necessary */
+ 
+
+  .chat-header {
+    background: rgb(255, 179, 38);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .avatar img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease; /* Smooth transition for transform changes */
+  }
+  
+  .avatar img:hover {
+    transform: scale(1.1); /* Slightly enlarge the avatar image on hover */
+  }
+  /* Keyframes for a pulsing effect */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+.chat-header h2 {
+  position: relative;
+  right: 48px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for color and text-shadow changes */
+  cursor: pointer; /* Indicates the text is interactive */
+}
+
+.chat-header h2:hover {
+  color: #1f1912; /* Change color on hover */
+  text-shadow: 0 0 8px rgba(224, 146, 37, 0.5); /* Add a glow effect */
+}
+
+.avatar img:hover {
+  animation: pulse 1s infinite; /* Apply the pulse animation on hover */
+}
+
+  
+  .chat-header h2 {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .status {
+    font-size: 12px;
+  }
+  
+  .actions button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .chat-body {
+    flex-grow: 1; /* Grow to use available space */
+    overflow-y: auto; /* Keep the scrollbar if content overflows */
+    padding: 10px;
+    background-color: rgba(255, 204, 109, 0.753);
+  }
+  
+  
+  
+  .messages .message {
+    margin: 5px 0;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 15px;
+    width: fit-content;
+  }
+  .message {
+    display: flex;
+    align-items: center;
+  }
+  
+  .message-icon {
+    width: 42px; /* Size of the icon */
+    height: 42px; /* Size of the icon */
+    margin-right: 10px; /* Space between icon and message */
+  }
+  
+  .chat-footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chat-footer input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0 10px;
+  }
+  
+  .chat-footer button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }  
+
+  .user-message {
+    background: #ffffff; /* User message background color */
+    align-self: flex-end;
+    position: relative; /* Position user messages to the right */
+    margin: 5px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    float: right;
+  }
+
+  .clear-div {
+    clear: both;
+  }
+  
+  /* Style for chatbot messages */
+  .chatbot-message {
+    background: rgb(255, 179, 38); /* Chatbot message background color */
+    align-self: flex-start; /* Position chatbot messages to the left */
+    margin: 5px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  /* Fade-in effect for messages */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.user-message, .chatbot-message {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Pulse effect on chatbot status */
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.status {
+  animation: pulse 2s infinite;
+}
+
+/* Hover effect on buttons */
+.actions button:hover, .chat-footer button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Smooth scrolling effect */
+.chat-body {
+  scroll-behavior: smooth;
+}
+/* Scrollbar styles for light mode */
+.chat-body::-webkit-scrollbar {
+  width: 8px; /* Adjust width of the scrollbar */
+}
+
+.chat-body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light grey track */
+}
+
+.chat-body::-webkit-scrollbar-thumb {
+  background-color: #b3b3b3; /* Darker grey for the thumb */
+  border-radius: 10px;
+  border: 2px solid #f1f1f1; /* Add a light border around the thumb */
+}
+/* Scrollbar styles for dark mode */
+.dark-mode .chat-body::-webkit-scrollbar {
+  width: 8px; /* Consistent width with light mode for uniformity */
+}
+
+.dark-mode .chat-body::-webkit-scrollbar-track {
+  background: #444; /* Darker track, matching the dark mode style */
+}
+
+.dark-mode .chat-body::-webkit-scrollbar-thumb {
+  background-color: #666; /* Even darker thumb for better visibility */
+  border-radius: 10px;
+  border: 2px solid #444; /* Border to match the track */
+}
+
+/* Typing Animation */
+@keyframes typing {
+  0% { content: ''; }
+  25% { content: '.'; }
+  50% { content: '..'; }
+  75% { content: '...'; }
+  100% { content: ''; }
+}
+
+.typing-indicator {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 10px;
+  vertical-align: middle;
+  animation: typing 1.5s steps(4) infinite;
+}
+
+/* Message Send Animation */
+.user-message, .chatbot-message {
+  transform: translateX(50px);
+  opacity: 0;
+  animation: sendMsg 0.5s forwards;
+}
+
+@keyframes sendMsg {
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Background Gradient Animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.chat-body {
+  background-size: 200% 200%;
+  animation: gradientBG 15s ease infinite;
+}
+
+/* Button Press Effect */
+.actions button:active, .chat-footer button:active {
+  transform: scale(0.95);
+}
+
+/* Add this in addition to the existing CSS styles */
+/* Add this to your existing CSS */
+.chat-widget.minimized {
+  height: 55px; /* Height of the header so the rest of the chat is hidden */
+  overflow: hidden; /* Ensures the body of the chat is not visible */
+}
+
+.chat-widget.minimized .chat-body,
+.chat-widget.minimized .chat-footer {
+  display: none; /* Hide body and footer when minimized */
+}
+
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.typing-dot {
+  width: 6px;
+  height: 6px;
+  margin: 0 3px;
+  background-color: #333;
+  border-radius: 50%;
+  animation: typing 0.5s infinite alternate;
+}
+
+/* We have three dots, so we stagger the animation a bit for each */
+.typing-dot:nth-child(1) { animation-delay: 0s; }
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+  from { transform: translateY(0); }
+  to { transform: translateY(-5px); }
+}
+
+
+/* Dark mode styles */
+.dark-mode { /* Dark background for the whole chatbot */
+  color: white; /* Light text for better readability in dark mode */
+}
+
+.dark-mode .chat-widget {
+  background: #222; /* Dark background for the widget */
+  border-color: #444; /* Darker border for the widget */
+}
+
+.dark-mode .chat-header {
+  background: #555; /* Darker header background */
+}
+
+.dark-mode .chat-body {
+  background-color: #333; /* Dark background for chat body */
+}
+
+.dark-mode .chat-footer {
+  background: #222; /* Dark background for footer */
+  border-top-color: #444; /* Darker border color */
+}
+
+.dark-mode .user-message {
+  background: #f8f4f4;
+  color: #222; /* Dark background for user message */
+}
+
+.dark-mode .chatbot-message {
+  background: #666; /* Dark background for chatbot message */
+}
+
+.dark-mode .typing-dot {
+  background-color: #fff; /* Light color for typing dots */
+}
+
+/* Button to toggle dark mode */
+#dark-mode-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px; /* Space before the input field */
+}
+
+#emoji-picker {
+  position: absolute;
+  bottom: 50px; /* Adjust based on your layout */
+  right: 5px;
+}

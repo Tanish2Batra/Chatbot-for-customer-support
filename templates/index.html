@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chatbot Interface</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script type="module">
+  import Picker from 'https://cdn.jsdelivr.net/npm/emoji-picker-element@latest/picker.js';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const emojiButton = document.getElementById('emoji-button');
+    const picker = new Picker({ /* You can add picker options here */ });
+    document.body.appendChild(picker);
+    picker.style.position = 'absolute';
+    picker.style.bottom = '50px'; // Adjust based on your layout
+    picker.style.right = '20px'; // Adjust based on your layout
+    picker.style.display = 'none';
+    
+    emojiButton.addEventListener('click', () => {
+        picker.style.display = picker.style.display === 'none' ? 'block' : 'none';
+    });
+
+    picker.addEventListener('emoji-click', event => {
+        const input = document.getElementById('user-input');
+        input.value += event.detail.unicode;
+        picker.style.display = 'none';
+    });
+
+    // Close picker when clicking outside of it
+    document.addEventListener('click', (event) => {
+        if (!picker.contains(event.target) && !emojiButton.contains(event.target)) {
+            picker.style.display = 'none';
+        }
+    });
+  });
+</script>
+
+</head>
+<body>
+<div class="container"> <!-- Add this container div -->
+  <div class="chat-widget">
+    <header class="chat-header">
+      <div class="avatar"><img src="{{ url_for('static', filename='images/icon.png') }}" alt="Chatbot Avatar"></div>
+      <h2 style="position: relative; right: 48px; font-weight:bold; font-size:15px;"> <i>Gizmore Chatbot</i></h2>
+      <div class="status"></div>
+      <div class="actions">
+        <button id="minimize">_</button>
+      </div>
+    </header>
+    <div class="chat-body" id="chat-box">
+    </div>
+    <div class="chat-footer">
+      <button id="dark-mode-toggle">🔦</button>
+      <button id="emoji-button">😊</button>
+      <emoji-picker id="emoji-picker" style="display:none;"></emoji-picker>
+      <input type="text" id="user-input" placeholder="Enter your message...">
+      <button id="send-btn">➤</button>
+    </div>
+    
+  </div>
+</div>
+
+ 
+  
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
